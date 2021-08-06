@@ -138,8 +138,8 @@ namespace Sabio.Services.codingChallenge
             course.Description = reader.GetSafeString(i++);
             course.SeasonTerm = reader.GetSafeString(i++);
             course.Teacher = reader.GetSafeString(i++);
-            course.Student = reader.DeserializeObject<IList<Student>>(i++);
-            return course;
+            course.Student = reader.DeserializeObject<IList<Student>>(i++); //Here an IList, which is an interface implemented by List, is used to 
+            return course;                                                  //deserialize my JSON object of type Student
         }
 
     }
