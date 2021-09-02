@@ -18,7 +18,7 @@ namespace Sabio.Db.ConsoleApp
             //string connString = @"Data Source=ServerName_Or_IpAddress;Initial Catalog=DB_Name;User ID=SabioUser;Password=Sabiopass1!"; 
             #endregion
 
-            string connString = @"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
+            string connString = @"Default": "Data Source=XXXXXXXXXX;Initial Catalog=XXXXXXXXXXXXXX;User ID=XXXXXXXXXXXXX;Password=XXXXXXXXXXXXXXXXXXXXXXXXXXX"
 
             TestConnection(connString);
 
