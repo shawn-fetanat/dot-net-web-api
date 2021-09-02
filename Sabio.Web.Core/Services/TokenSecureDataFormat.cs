@@ -9,7 +9,7 @@ namespace Sabio.Web.Core.Services
 {
     public class TokenSecureDataFormat : ISecureDataFormat<AuthenticationTicket>
     {
-        private string _secret = "e02ad8a626b84d298fa1a0d4e5df8bce";
+        private string _secret = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
         private int _expirationDays;
         private JsonWebTokenConfig _config;
 
